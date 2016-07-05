@@ -27,7 +27,7 @@ var friendAge = getAge(friend)
 happyBirthday(friendAge)
 
 
-func birthdayGreeting(age: Int) -> String {
+func birthdayGreeting(age: Int) -> String { //return string with int arguement
     return "Happy birthday #\(age)!"
 }
 
@@ -35,7 +35,7 @@ var greeting = birthdayGreeting(30)
 print(greeting)
 
 
-func getAgeAndCongratulate(name: String) -> Int {
+func getAgeAndCongratulate(name: String) -> Int { //return int with string as argument
     let age = 29
     print("Happy \(age)th birthday, \(name)!")
     return age
